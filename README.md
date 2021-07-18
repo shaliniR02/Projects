@@ -1,1 +1,1 @@
-Projects created for my learnings and to explore news technolgie and programs
+Projects created for my learnings and to explore new technolgies and programs
