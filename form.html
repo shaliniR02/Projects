@@ -1,0 +1,60 @@
+<html>    
+    <head>    
+        <title>Registration Form</title>    
+    </head>    
+    <body>    
+        <link href = "registration.css" type = "text/css" rel = "stylesheet" />    
+        <h2>Sign Up</h2>    
+        <form name = "form1" action="modified.php" method = "post">    
+            <div class = "container">    
+                <div class = "form_group">    
+                    <label>First Name:</label>    
+                    <input type = "text" name = "fname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Middle Name:</label>    
+                    <input type = "text" name = "mname" value = "" required />    
+                </div>    
+                <div class = "form_group">    
+                    <label>Last Name:</label>    
+                    <input type = "text" name = "lname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Password:</label>    
+                    <input type = "password" name = "pwd" value = "" required/>    
+                </div>   
+                 <div class = "form_group">    
+                    <label>   
+                    Phone :  
+                    </label>  
+                    <input type="text" name="number"  value="+91" size="2"/>   
+                    <input type="text" name="phone" size="10"/>   
+                </div> 
+                <div class = "form_group">
+                <label>Gender : </label> 
+                    <input type="radio" name="sex" value = "" required/> Male 
+                    <input type="radio" name="sex" value = "" required/> Female 
+                    <input type="radio" name="sex" value = "" required/> Other 
+                </div> 
+                <div class = "form_group">
+                    Address: 
+                    <br>  
+                    <textarea cols="80" rows="5" value = "" required>  
+                    </textarea>  
+                </div>
+                <div class = "form_group">
+                    <label>City : </label>   
+                    <select>  
+                    <option value="">City</option>  
+                    <option value="">Vellore</option>  
+                    <option value="">Chennai</option>  
+                    <option value="">Bangalore</option>  
+                    <option value="">Mumbai</option>  
+                    <option value="">Calicut</option>  
+                    <option value="">Other</option>  
+                    </select>
+                </div>      
+        </form>
+        <input type="submit" name="submit"> 
+    </body>    
+</html>    
